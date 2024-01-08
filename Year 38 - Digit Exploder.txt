@@ -1,0 +1,241 @@
+Solution 1
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    COPYFROM 9
+    COPYTO   7
+    COPYTO   8
+    INBOX   
+    COPYTO   0
+b:
+    COPYFROM 0
+    SUB      11
+    JUMPN    c
+    COPYTO   0
+    BUMPUP   8
+    JUMP     b
+c:
+d:
+    COPYFROM 0
+    SUB      10
+    JUMPN    e
+    COPYTO   0
+    BUMPUP   7
+    JUMP     d
+e:
+    COPYFROM 8
+    JUMPZ    f
+    OUTBOX  
+    COPYFROM 7
+    OUTBOX  
+    JUMP     h
+f:
+    COPYFROM 7
+    JUMPZ    g
+    OUTBOX  
+g:
+h:
+    COPYFROM 0
+    OUTBOX  
+    JUMP     a
+
+
+
+
+
+
+
+
+Solution 2
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    COPYFROM 11
+    ADD      11
+    ADD      11
+    COPYTO   4
+    COPYFROM 10
+    ADD      10
+    ADD      10
+    COPYTO   3
+    COMMENT  0
+a:
+    COPYFROM 9
+    COPYTO   1
+    COPYTO   2
+    INBOX   
+    COPYTO   0
+    SUB      4
+    JUMPN    d
+    COPYTO   0
+    BUMPUP   2
+    BUMPUP   2
+    BUMPUP   2
+    COPYFROM 0
+    SUB      4
+    JUMPN    c
+    COPYTO   0
+    BUMPUP   2
+    BUMPUP   2
+    BUMPUP   2
+    COPYFROM 0
+    SUB      4
+    JUMPN    b
+    COPYTO   0
+    BUMPUP   2
+    BUMPUP   2
+    BUMPUP   2
+    JUMP     g
+    COMMENT  1
+b:
+c:
+d:
+    COPYFROM 0
+    SUB      11
+    JUMPN    f
+    COPYTO   0
+    BUMPUP   2
+    COPYFROM 0
+    SUB      11
+    JUMPN    e
+    COPYTO   0
+    BUMPUP   2
+    COMMENT  2
+e:
+f:
+g:
+    COPYFROM 0
+    SUB      3
+    JUMPN    j
+    COPYTO   0
+    BUMPUP   1
+    BUMPUP   1
+    BUMPUP   1
+    COPYFROM 0
+    SUB      3
+    JUMPN    i
+    COPYTO   0
+    BUMPUP   1
+    BUMPUP   1
+    BUMPUP   1
+    COPYFROM 0
+    SUB      3
+    JUMPN    h
+    COPYTO   0
+    BUMPUP   1
+    BUMPUP   1
+    BUMPUP   1
+    JUMP     m
+    COMMENT  3
+h:
+i:
+j:
+    COPYFROM 0
+    SUB      10
+    JUMPN    l
+    COPYTO   0
+    BUMPUP   1
+    COPYFROM 0
+    SUB      10
+    JUMPN    k
+    COPYTO   0
+    BUMPUP   1
+    COMMENT  4
+k:
+l:
+m:
+    COPYFROM 2
+    JUMPZ    p
+    OUTBOX  
+    COPYFROM 1
+n:
+    OUTBOX  
+o:
+    COPYFROM 0
+    OUTBOX  
+    JUMP     a
+    COMMENT  5
+p:
+    COPYFROM 1
+    JUMPZ    o
+    JUMP     n
+
+
+DEFINE COMMENT 0
+eJwTYmBg4AvsWvw1kqGVKXF6+o6UulCTNB5Pz6zPZgtyF2vvzfM2tCzQ87pUtCberbyqYVPd9DVALQyJ
+if0V/3NFazvK7jVX1NxrZhgFo2AUDEkAAJzcHSQ;
+
+DEFINE COMMENT 1
+eJwTY2BgqIx4v2xa5LUp0yJ5PCenvXb/n1voI1L0PeB98fwwv5KuuPfF7xNnFNzK5IrTKn0av6EyMkW0
+tjuToVUmf0XX9wK9/rDCzEWWBYIrHuXsXJuXIbtxdeyf9QyjYBSMgiEBALGPKZU;
+
+DEFINE COMMENT 2
+eJwTYWBg0A567e4RPNm3MTQhrzHUekZMuP2mGxFHt6nHa+2ST+rfy579+YBh8ecDQKUMMeG55XVJSwqq
+85cUMID1pjofCVF0nJ0820azbLYNwygYBaNgSAEA4YceAQ;
+
+DEFINE COMMENT 3
+eJwTYGBguJvE4zk7+XtAZIpWaWTKkq02yRFHgMIMu6qv+VfUSAZ9qRVMnlrLsRMkdjV1bxN/RlWDTH5V
+Q0ZTWyfDKBgFo2BIAwANFxfw;
+
+DEFINE COMMENT 4
+eJyzYmBg+BtmZnkjotDnQnRVw4m4NUvU45VOA4UZuOJmN67Iep+4tPyzGYh/N0m0Ni7vdY9gvdqCSV32
+m25Ojjhycdre4yA57plN+SYLlxSA2N57Arw37Qzwttv6PWDpJvcYt0255X+2vu6ZumPyJO89ktNnHaqb
+FXCsbtaZ45LTzxw3q1t/bElB7UH3GJDe2LPWwTfPhaQWXdxQyX3lZPezq5Mn1d+QnP75juR0gXtbJvfc
+P9m998nB8OqnatEiL/Y2gfSc/xrgff7r9PRV353bV30vnAgSc3t70s3uQ6qz869UZ7k/io4Mo2AUjAKs
+AAAse2y4;
+
+DEFINE COMMENT 5
+eJzjYWBgyMvw2e2ZFbLKMyvVeVGLs5N1+2Rfsc7MWLFOweTtHaVptW32ucVFGyr35m2oZBgFo2AUDCsA
+APLyEuY;
+
+DEFINE LABEL 0
+eJzjZWBgUA7d4ncg8VKVSNH7Zbuq+/cChRgMiw+GzygwSuHPEK31iV2zxDzy6Lbd4Zf2/w1jOMVAISio
+/7N+U91k31nt95oDuidP8ui712ww3dnp5MxHEfyLT3Z7Lj231HGF7EZK7RkFo2AUEAYAiHgrIQ;
+
+DEFINE LABEL 1
+eJxTYmBgsPYJ8N7uO9lXO6gr7kScc3t3puxGoDDDjpRr/r+S54clJnbFNYZeqsoNfN0j5nduKUjuSbN1
+sGSNdfD9yvlhmmWZsROKQ1KLi5YUFBfdazYsPtm9tuTaFJaK+bML6lnm17axzL/SeXDO+u6Ymcv7FNvY
++o8W5vZkxl7ptA6ubePxdG7h8WQYBaNgFAwIAAAvKTmP;
+
+DEFINE LABEL 2
+eJyzZmBg2KDz2n2Fvp7XLRPJoFNWXXF6rpeqInwlpx8JCVkVErVkK1AJg3ZQm8t+r7rQVo/M2D/2Tfkd
+1qK1KobnloLkDlW0ufiV8HjuzZMMyss4lyCempD3K9m7rC5pRVdd0pbJd5PqZomnrlnimSW7cUbB0W0s
+FUe33a+031RRc25pQX1b5/n6cwnBdSxRkjV1oZplk31BZjLNueZfNG2L3/Qp3wOO9LvHBHRrlU7qqmqY
+1MUyP7dHcMXDCX/W1819vj1y/vPtOktkNz5aLrji1qrHc8PW/Jh6ae3sxuK13mXfVyfkyazamcE9c7Lv
+tyltLgyjYBSMAgwAAJG5a6E;
+
+DEFINE LABEL 3
+eJxTZ2BgMPZvc5FPanPpzjzp9iiHxzMu73tAXF5X3KOckNSrqU35J+KeF03y5yiZFlnVcDfp8dxfyeeW
+2iSHrGJK/LPeJ3bJ1sZQrV0f/bV2AY1i6Oo96ebcEuAtWP89QLLmUcTcqveJc6t4+3ZV182aWrtmiV5D
+yCrGVtmNk7qatlRNXrLVd8af9e2zjFYmznndkzhHq9R1tmDyyZnzw4qmXfNnGAWjYBTQHAAAb1JJXw;
+
+DEFINE LABEL 4
+eJyzYWBgEDHX8zK0eO2ebNvmssqtzSXByzr4jvea+DveIam13jszFnkm5K1y4yiZ6tRfYWghWrvUpqpB
+0KWt87zL6x5vN73+DPeYmZzupavPu9xat9Tm1rpmw5BVQGMZMuO2+K2ODUnti+Eo6YvR6/eJvTYlMdF9
+4dVUwRUzCnauLS7auXZtidFKzTLJ6ZplqR1rS+xzRYpYom7lx4SwZ0/2nZ180s0n9qTbhWg9r8Loyb4g
+Myd16XmVdup5ybXFhKxqvFTl3VjVsKpRr1+uzX3hxy6jlRenGa3knrlmicYslvlMcxTbmOY8L8qayRIl
+PO21e1fvXluGUTAKRgEKAAD4UGNB;
+
+DEFINE LABEL 9
+eJxzYmBgiHZ4nyjm9z6x1C8ktdRPNme775ICRq+qhjeuktOvO55bWuE4fU1X0PQ1QKUMbfHvE9viqxoO
+JAZMmJ1sPcMkjWW+Z1bX4gW5XYtB8rOTqxrKUj9XB6YvKQDx5ZMOhu9I0fO6mvranT9jhevR7BWuIHHF
+Spb5mmXnEjTLeDyfl+21XVr+2Uyx8pJpdPVns94GBofW5kIf55b5Yc4tIamtzbI5nE0cJWa1l6rMahla
+M5omT7rSaT0jtd96Bsisi9N4PEOnXvO3mMISdXPypaqL0/T6n82qm5U4Z/7syPnzZ09eeG2K59L+ihVL
+WaLyFk/2BekxWTjZV3yBnlfinNfui2dD3DQKRsFIBAAWVG2O;
+
+DEFINE LABEL 10
+eJyTYGBgqIx4FDEt0j53WqT7QiCXQbD+feKp0veJa0uMUiYUT0+3LJjdWJ1/srs6X3L69wL3hX4lpauT
+KxI3X6/h2LmoxWf3rPaj27Z3yG407jo4Z1LX52rr9j9ZtW07M1qbS9MYRsEoGAWDGgAAZAMtNw;
+
+DEFINE LABEL 11
+eJwzYGBgeOIhGfTEQ6s0w33yJE53wRVAIYYDiUYpbfGlaX0x9rmVEaK1MeEruqQiMhdNi5y+xif26Db1
+eI6dBxI5ds5OPrptR0rTlk9pIavyMrZM5s+41zw5jaPEJrkrziUhJgRkVkXNmniWip0ZHWXeZZplzu1L
+y+fP/lN1bumbhpBVi1pCVs1q71q8vePx3NJO6xmTuiLqJ3W9TxTrjAn52X7NH6RfryHAW7JGMsiuyj3m
+T1VX3PUatWjB+piQgvrvAQyjYBSMAooAADmQUjU;
+
+
+
+
+
+

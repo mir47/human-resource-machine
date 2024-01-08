@@ -1,0 +1,27 @@
+Solution 1
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX   
+b:
+    COPYTO   5
+    COPYFROM [5]
+    OUTBOX  
+    BUMPUP   5
+    COPYFROM [5]
+    JUMPN    a
+    JUMP     b
+
+
+DEFINE LABEL 5
+eJzTYWBgYAu55h/s/D3gkG1d6FpLtWhDi/eJl8xzy7OtZjc22LV1fnHi7XviETChMTRgAlA5A1NiTMjT
++D9ZT+NFa5kSGVptknn7NqRfmzKh+NqU52UBExQr2zorarzLptZOT59a2xUH0rO/lbfvZ/utzJ/tjyJK
+O9tcArpn27D1V1n/mzjbpmhaqvO76a/ds2bGhGTNdI95N90oRXmCbM6R/iUFTRM4SoSnzW58tWTLZPZl
+WyYzjIJRMAqoCgDWDU3x;
+
+
+
+
+
+

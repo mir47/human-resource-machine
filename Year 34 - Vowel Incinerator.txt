@@ -1,0 +1,38 @@
+Solution 1
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+b:
+    COPYFROM 5
+    COPYTO   8
+    INBOX   
+    COPYTO   6
+c:
+    COPYFROM [8]
+    JUMPZ    d
+    SUB      6
+    JUMPZ    b
+    BUMPUP   8
+    JUMP     c
+d:
+    COPYFROM 6
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 6
+eJxzZ2BgsDT9k8Vu8CerTGtJgYvqpSohBb3+r3J1s77KZS7aLH9uaabyn/XiWk1bgEoZzruIWpx32dvU
+68rb1+t6dBuj15olV/ysZzSGvu55G6PY9intXvPZDOf2Rzldi0HqK2oKJya0Fk5c3neyW3nC7EblCZ+r
+X/ZylER0JOS1NifkCdZzlEjWiNY2VLZ18pSuWbK2JGQVT+mtdW7liZtntSduXt53ax3InON7S9NYNpem
+iaxNyLNc/bzIcUVE/dFlzu2eSyWndy9ZsvXoMvPDC1bcO3FrlfMZzY0rzpvtOHkBpO/ZVevg+huKbddu
+228C8Xd9lM1hefcnK+7J0cL0h1ql5berGq7dDpjw+Y71jNf31yzZ+vzP+lOvEzcnv0vczDAKRsEIAADH
+RIj0;
+
+DEFINE LABEL 8
+eJxjY2Bg8Il9n+gTG3EEyGToi/mjqh6foMkwCkbBKBgRAABCFQbf;
+
+
+
+
+

@@ -1,2 +1,3 @@
 # human-resource-machine
-https://tomorrowcorporation.com/humanresourcemachine
+
+Solutions to coding puzzle game [Human Resource Machine](https://tomorrowcorporation.com/humanresourcemachine)

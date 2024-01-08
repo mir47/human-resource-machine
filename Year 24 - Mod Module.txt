@@ -1,0 +1,29 @@
+Solution 1
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX   
+    COPYTO   0
+    INBOX   
+    COPYTO   1
+    COPYFROM 0
+b:
+    SUB      1
+    JUMPN    c
+    COPYTO   0
+    JUMP     b
+c:
+    COPYFROM 0
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 3
+eJwTYGBgmBbJMv9rZID34oTX7hvSX7uvyArwdsy1Dv6fOz/sf25mrEpOSOrZDNmctvjnRSfitErb4jdU
+bkjn7dta6L6QYRSMglEwpAEAPb8cXg;
+
+
+
+
+

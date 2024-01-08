@@ -1,0 +1,58 @@
+Solution 1
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+b:
+    INBOX   
+    JUMPN    c
+    INBOX   
+    JUMPN    d
+    JUMP     f
+c:
+    INBOX   
+    JUMPN    e
+d:
+    COPYFROM 5
+    OUTBOX  
+    JUMP     b
+e:
+f:
+    COPYFROM 4
+    OUTBOX  
+    JUMP     a
+
+
+
+
+
+
+
+
+Solution 2
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+b:
+    INBOX   
+    JUMPN    d
+    INBOX   
+    JUMPN    e
+c:
+    COPYFROM 4
+    OUTBOX  
+    JUMP     a
+d:
+    INBOX   
+    JUMPN    c
+e:
+    COPYFROM 5
+    OUTBOX  
+    JUMP     b
+
+
+
+
+
+

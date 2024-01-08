@@ -1,0 +1,39 @@
+Solution 1
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX   
+    COPYTO   0
+    INBOX   
+    SUB      0
+    JUMPN    b
+    ADD      0
+    JUMP     c
+b:
+    COPYFROM 0
+c:
+    OUTBOX  
+    JUMP     a
+
+
+
+
+
+
+
+
+Solution 2
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    INBOX   
+    COPYTO   0
+    INBOX   
+    COPYTO   1
+    SUB      0
+    COPYFROM 1
+
+
+
+

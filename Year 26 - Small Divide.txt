@@ -1,0 +1,76 @@
+Solution 1
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    COPYFROM 9
+    COPYTO   7
+    INBOX   
+    COPYTO   0
+    INBOX   
+    COPYTO   1
+    COPYFROM 0
+b:
+    SUB      1
+    JUMPN    c
+    COPYTO   0
+    BUMPUP   7
+    COPYFROM 0
+    JUMP     b
+c:
+    COPYFROM 7
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 7
+eJzzY2BgUPP4HlDgEuC91Oak2wzT1+4r9Cf7lmk9ilis+icrU9m7bLWSc/tTFcnpd9UzFwXq7FzraHR0
+23uL3D27HDbsa/Xo33vH22c30BiG2cmCyS4JmbH6MWrRNyLcY+aFnU04EnIrUzuoquFMIMv8rqBzS1ND
+mrbEhG/Ypx+z9/js5NSzadmpZ6vz7534XhBx5H3xrXVrSwImGBb3V+zNc49RyfkeADI3o6nQ53jTtSmz
+2u03GXdx7JzUlbtHecLsY2tmzD6WOMdn99257gvvzr2V+Wve/DCQ+kfLlU4/Wn5rXdzKqobvqzNjRdau
+ifdb/7xo6SbFtvtb6ma92c1wqnUf7+VF+09eWLQ/9eydg5f2/zxktDLi8GRfkP4l194n7rzVX8HxcM2S
+BY/vnQCJNZ2eH1bxaX7Yk58xIXJ/JIMYRsEoGCYAAJBDmoY;
+
+
+
+
+
+
+
+Solution 2
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    COPYFROM 9
+    COPYTO   7
+    INBOX   
+    COPYTO   0
+    INBOX   
+    COPYTO   1
+b:
+    COPYFROM 0
+    SUB      1
+    JUMPN    c
+    COPYTO   0
+    BUMPUP   7
+    JUMP     b
+c:
+    COPYFROM 7
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 7
+eJzzY2BgUPP4HlDgEuC91Oak2wzT1+4r9Cf7lmk9ilis+icrU9m7bLWSc/tTFcnpd9UzFwXq7FzraHR0
+23uL3D27HDbsa/Xo33vH22c30BiG2cmCyS4JmbH6MWrRNyLcY+aFnU04EnIrUzuoquFMIMv8rqBzS1ND
+mrbEhG/Ypx+z9/js5NSzadmpZ6vz7534XhBx5H3xrXVrSwImGBb3V+zNc49RyfkeADI3o6nQ53jTtSmz
+2u03GXdx7JzUlbtHecLsY2tmzD6WOMdn99257gvvzr2V+Wve/DCQ+kfLlU4/Wn5rXdzKqobvqzNjRdau
+ifdb/7xo6SbFtvtb6ma92c1wqnUf7+VF+09eWLQ/9eydg5f2/zxktDLi8GRfkP4l194n7rzVX8HxcM2S
+BY/vnQCJNZ2eH1bxaX7Yk58xIXJ/JIMYRsEoGCYAAJBDmoY;
+
+
+
+
+
+

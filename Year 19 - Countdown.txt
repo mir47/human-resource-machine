@@ -1,0 +1,57 @@
+Solution 1
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX   
+    COPYTO   0
+b:
+c:
+    OUTBOX  
+    COPYFROM 0
+    JUMPZ    a
+    JUMPN    d
+    BUMPDN   0
+    JUMP     c
+d:
+    BUMPUP   0
+    JUMP     b
+
+
+
+
+
+
+
+
+Solution 2
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    JUMP     d
+a:
+b:
+c:
+    OUTBOX  
+d:
+    INBOX   
+    COPYTO   0
+    JUMPZ    a
+    JUMPN    f
+e:
+    OUTBOX  
+    BUMPDN   0
+    JUMPZ    c
+    JUMP     e
+f:
+g:
+    OUTBOX  
+    BUMPUP   0
+    JUMPZ    b
+    JUMP     g
+
+
+
+
+
+
